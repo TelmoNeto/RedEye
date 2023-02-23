@@ -2849,13 +2849,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/better-sqlite@npm:5.4.2":
-  version: 5.4.2
-  resolution: "@mikro-orm/better-sqlite@npm:5.4.2"
+"@mikro-orm/better-sqlite@npm:5.6.8":
+  version: 5.6.8
+  resolution: "@mikro-orm/better-sqlite@npm:5.6.8"
   dependencies:
-    "@mikro-orm/knex": ~5.4.2
-    better-sqlite3: 7.6.2
-    fs-extra: 10.1.0
+    "@mikro-orm/knex": ~5.6.8
+    better-sqlite3: 8.0.1
+    fs-extra: 11.1.0
     sqlstring-sqlite: 0.1.1
   peerDependencies:
     "@mikro-orm/core": ^5.0.0
@@ -2869,7 +2869,7 @@ __metadata:
       optional: true
     "@mikro-orm/seeder":
       optional: true
-  checksum: 35468f44e196103e7b47f9d23e70bc4a88819c1054473239e5aefd2f1df38b57eb29b40005f408ad93acaf6180609422a39b9ecc0703ad3ee9af1bdbf37ff1a0
+  checksum: 168ace2f8cd8f3a2eba40617a22f1ae3eb5f87f46b4df1e3f4f285d106e8925c8a853ab01e48c9db1ea1636abc66958b32ce4d546bcad939c362e441a2033ca9
   languageName: node
   linkType: hard
 
@@ -2967,6 +2967,44 @@ __metadata:
     sqlite3:
       optional: true
   checksum: d574c3322aac480022dd110ae8089a40fd73333d6e17dee2b31601a87c6a0795a139b94697add7288196872f70909ca3fef4b01db29258593d3bf0c73dc0c3ce
+  languageName: node
+  linkType: hard
+
+"@mikro-orm/knex@npm:~5.6.8":
+  version: 5.6.11
+  resolution: "@mikro-orm/knex@npm:5.6.11"
+  dependencies:
+    fs-extra: 11.1.0
+    knex: 2.4.2
+    sqlstring: 2.3.3
+  peerDependencies:
+    "@mikro-orm/core": ^5.0.0
+    "@mikro-orm/entity-generator": ^5.0.0
+    "@mikro-orm/migrations": ^5.0.0
+    better-sqlite3: ^8.0.0
+    mssql: ^7.0.0
+    mysql: ^2.18.1
+    mysql2: ^2.1.0
+    pg: ^8.0.3
+    sqlite3: ^5.0.0
+  peerDependenciesMeta:
+    "@mikro-orm/entity-generator":
+      optional: true
+    "@mikro-orm/migrations":
+      optional: true
+    better-sqlite3:
+      optional: true
+    mssql:
+      optional: true
+    mysql:
+      optional: true
+    mysql2:
+      optional: true
+    pg:
+      optional: true
+    sqlite3:
+      optional: true
+  checksum: f9f5f153ae6f728fcdffa14cb497e2a8965d9d47a33a1158d385e1599d35afecf600b8e3067041fc2fa5fc0f8b6619bad48b54f153e49c120a3ca8006ecd5109
   languageName: node
   linkType: hard
 
@@ -3723,46 +3761,6 @@ __metadata:
   checksum: f9bf3163d13aaa3b6f5e6fbf37a116e094ea021c0e1f2a7ccd0e12a29e2ce08dafba4e8b36e13f8ed7397e1591610ce880ed1289af4d66cf4ace8a36a9557278
   languageName: node
   linkType: hard
-
-"@redeye/client@workspace:applications/client":
-  version: 0.0.0-use.local
-  resolution: "@redeye/client@workspace:applications/client"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/cs-parser@workspace:packages/cs-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/cs-parser@workspace:packages/cs-parser"
-  bin:
-    cs-parser: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/graph@workspace:packages/graph":
-  version: 0.0.0-use.local
-  resolution: "@redeye/graph@workspace:packages/graph"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/models@workspace:packages/models":
-  version: 0.0.0-use.local
-  resolution: "@redeye/models@workspace:packages/models"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/server@workspace:applications/server":
-  version: 0.0.0-use.local
-  resolution: "@redeye/server@workspace:applications/server"
-  bin:
-    server: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/ui-styles@workspace:packages/client/ui-styles":
-  version: 0.0.0-use.local
-  resolution: "@redeye/ui-styles@workspace:packages/client/ui-styles"
-  languageName: unknown
-  linkType: soft
 
 "@remix-run/router@npm:1.0.1":
   version: 1.0.1
@@ -6778,14 +6776,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:7.6.2":
-  version: 7.6.2
-  resolution: "better-sqlite3@npm:7.6.2"
+"better-sqlite3@npm:8.0.1":
+  version: 8.0.1
+  resolution: "better-sqlite3@npm:8.0.1"
   dependencies:
     bindings: ^1.5.0
     node-gyp: latest
     prebuild-install: ^7.1.0
-  checksum: 45159e535d2c4f81456f85adcfef82e8a49025ca3e70a79bb8c0a47c13e4d822633a51b457cc37b986c42f8912344152091c91cab485048a187900aab7e7d619
+  checksum: 533b2cc32bd54e2a943a4f63e079f8cc8945879b7a0ebd2085b948824ea067792f6f903ab75ba75d7cafc5f8f973354cdf9a042fa6216e077925d07a8df1bead
   languageName: node
   linkType: hard
 
@@ -10839,6 +10837,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^7.0.1":
   version: 7.0.1
   resolution: "fs-extra@npm:7.0.1"
@@ -13516,6 +13525,45 @@ __metadata:
   bin:
     knex: bin/cli.js
   checksum: ec00da6dd622a386507881e9d8ad44b9c5a4d9f272889b181cafb856fd26d7fdb19ef009cecdbbdedaf7c76f985a8fd14348ae47a0bb77b3dbec15f2c03c0dfe
+  languageName: node
+  linkType: hard
+
+"knex@npm:2.4.2":
+  version: 2.4.2
+  resolution: "knex@npm:2.4.2"
+  dependencies:
+    colorette: 2.0.19
+    commander: ^9.1.0
+    debug: 4.3.4
+    escalade: ^3.1.1
+    esm: ^3.2.25
+    get-package-type: ^0.1.0
+    getopts: 2.3.0
+    interpret: ^2.2.0
+    lodash: ^4.17.21
+    pg-connection-string: 2.5.0
+    rechoir: ^0.8.0
+    resolve-from: ^5.0.0
+    tarn: ^3.0.2
+    tildify: 2.0.0
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    mysql:
+      optional: true
+    mysql2:
+      optional: true
+    pg:
+      optional: true
+    pg-native:
+      optional: true
+    sqlite3:
+      optional: true
+    tedious:
+      optional: true
+  bin:
+    knex: bin/cli.js
+  checksum: cfb6436c0e3df3cd1f55d3637e4f222d1acbc7b6ec3757e52c92cbf0a7da4055d40156d707ffede57dc155af75d7f5739a49d1b31d8755bc77bc0e4e2a570748
   languageName: node
   linkType: hard
 
@@ -16982,7 +17030,7 @@ __metadata:
     "@emotion/babel-plugin": ^11.10.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    "@mikro-orm/better-sqlite": 5.4.2
+    "@mikro-orm/better-sqlite": 5.6.8
     "@mikro-orm/core": 5.4.2
     "@mikro-orm/entity-generator": 5.4.2
     "@mikro-orm/migrations": 5.4.2
@@ -19485,7 +19533,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
   version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
