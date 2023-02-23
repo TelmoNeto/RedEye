@@ -3724,50 +3724,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redeye/client@workspace:applications/client":
-  version: 0.0.0-use.local
-  resolution: "@redeye/client@workspace:applications/client"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/cs-parser@workspace:packages/cs-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/cs-parser@workspace:packages/cs-parser"
-  bin:
-    cs-parser: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/graph@workspace:packages/graph":
-  version: 0.0.0-use.local
-  resolution: "@redeye/graph@workspace:packages/graph"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/models@workspace:packages/models":
-  version: 0.0.0-use.local
-  resolution: "@redeye/models@workspace:packages/models"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/server@workspace:applications/server":
-  version: 0.0.0-use.local
-  resolution: "@redeye/server@workspace:applications/server"
-  bin:
-    server: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/ui-styles@workspace:packages/client/ui-styles":
-  version: 0.0.0-use.local
-  resolution: "@redeye/ui-styles@workspace:packages/client/ui-styles"
-  languageName: unknown
-  linkType: soft
-
-"@remix-run/router@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@remix-run/router@npm:1.0.1"
-  checksum: c12a5c14e8af06fe69d5237f77c852bfc6ab8969dd3fb306b9ed6c8e987ae126738a89c454d28f5b3e158bbfd950587a50ed4533e24b613f1abfa7bc9e6bfd1d
+"@remix-run/router@npm:1.3.2":
+  version: 1.3.2
+  resolution: "@remix-run/router@npm:1.3.2"
+  checksum: ee2108b87d4a1241cdea137dd7e1741ee679228bd33fd81e22a6bb2940f81186cefe9a85e26d60cc49bbcc1bdbc57d1954b7d4d62f8a51ef69feddfc899f55fa
   languageName: node
   linkType: hard
 
@@ -16749,27 +16709,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.4.1":
-  version: 6.4.1
-  resolution: "react-router-dom@npm:6.4.1"
+"react-router-dom@npm:^6.8.0":
+  version: 6.8.1
+  resolution: "react-router-dom@npm:6.8.1"
   dependencies:
-    "@remix-run/router": 1.0.1
-    react-router: 6.4.1
+    "@remix-run/router": 1.3.2
+    react-router: 6.8.1
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 006a38590d182483edb33d32cc4524a81cb6113c8c9896768d6cab05ab4dfafb2bbccefef9bea6d57dd71ece4438e5e1d9c53894d958f0cdd30ff5c862f08ebc
+  checksum: fb1a9f5c7e4c83536ee7e6493f3c13f6abda66da69f9191fb8b087ab188ecc18a3a32575813a280cbeca67bcb8b0dcb6dbcef7ed599e03f38a44d694f4abcf14
   languageName: node
   linkType: hard
 
-"react-router@npm:6.4.1":
-  version: 6.4.1
-  resolution: "react-router@npm:6.4.1"
+"react-router@npm:6.8.1":
+  version: 6.8.1
+  resolution: "react-router@npm:6.8.1"
   dependencies:
-    "@remix-run/router": 1.0.1
+    "@remix-run/router": 1.3.2
   peerDependencies:
     react: ">=16.8"
-  checksum: 71a6ba76d5b3664f3bd2201e9340444d1613425d647d1c72391b6c5d3bb05650c37de425103edd2bec95991836bb603f1a7fbe2c7abbe8d77e1ef83f6f65771a
+  checksum: 8e7cc7a516adeb6060911861af99d9b512893c15ec732cbf8574872919be4f3fe439ffa8c0876d1bcbced880d081bfeda3c01cb505b5a243565d10500ee0ac36
   languageName: node
   linkType: hard
 
@@ -17115,7 +17075,7 @@ __metadata:
     react-dom: ^18.2.0
     react-error-boundary: ^3.1.1
     react-resize-detector: ^6.6.4
-    react-router-dom: ^6.4.1
+    react-router-dom: ^6.8.0
     react-spring: ^8.0.27
     react-use-gesture: ^9.1.3
     react-virtuoso: ^2.7.1
@@ -19485,7 +19445,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
   version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
