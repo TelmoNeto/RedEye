@@ -2873,16 +2873,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/core@npm:5.4.2":
-  version: 5.4.2
-  resolution: "@mikro-orm/core@npm:5.4.2"
+"@mikro-orm/core@npm:5.6.8":
+  version: 5.6.8
+  resolution: "@mikro-orm/core@npm:5.6.8"
   dependencies:
     acorn-loose: 8.3.0
     acorn-walk: 8.2.0
-    dotenv: 16.0.2
-    fs-extra: 10.1.0
-    globby: 11.0.4
-    mikro-orm: ~5.4.2
+    dotenv: 16.0.3
+    fs-extra: 11.1.0
+    globby: 11.1.0
+    mikro-orm: ~5.6.8
     reflect-metadata: 0.1.13
   peerDependencies:
     "@mikro-orm/better-sqlite": ^5.0.0
@@ -2916,7 +2916,7 @@ __metadata:
       optional: true
     "@mikro-orm/sqlite":
       optional: true
-  checksum: 7ddf7513b6928bf11af1645120aa804116781abe49006f112c5c332a9c5fbd3d3b1b79bd74b9f86dc8a31845c5a2d65f3e9838e529ecb2ebc0efe5df67724764
+  checksum: d9df81cd58471c218a6d659e821449d8d62adbcc03f68c3edb8b00fb877756ee8a36853ba0629b355ad37b25a890c67b3404a54e56e8a04ef9bf8eac200cfb0d
   languageName: node
   linkType: hard
 
@@ -3723,46 +3723,6 @@ __metadata:
   checksum: f9bf3163d13aaa3b6f5e6fbf37a116e094ea021c0e1f2a7ccd0e12a29e2ce08dafba4e8b36e13f8ed7397e1591610ce880ed1289af4d66cf4ace8a36a9557278
   languageName: node
   linkType: hard
-
-"@redeye/client@workspace:applications/client":
-  version: 0.0.0-use.local
-  resolution: "@redeye/client@workspace:applications/client"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/cs-parser@workspace:packages/cs-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/cs-parser@workspace:packages/cs-parser"
-  bin:
-    cs-parser: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/graph@workspace:packages/graph":
-  version: 0.0.0-use.local
-  resolution: "@redeye/graph@workspace:packages/graph"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/models@workspace:packages/models":
-  version: 0.0.0-use.local
-  resolution: "@redeye/models@workspace:packages/models"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/server@workspace:applications/server":
-  version: 0.0.0-use.local
-  resolution: "@redeye/server@workspace:applications/server"
-  bin:
-    server: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/ui-styles@workspace:packages/client/ui-styles":
-  version: 0.0.0-use.local
-  resolution: "@redeye/ui-styles@workspace:packages/client/ui-styles"
-  languageName: unknown
-  linkType: soft
 
 "@remix-run/router@npm:1.0.1":
   version: 1.0.1
@@ -9182,10 +9142,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.0.2":
-  version: 16.0.2
-  resolution: "dotenv@npm:16.0.2"
-  checksum: ca8f9ca2d67929c7771069f4c31b4e46b9932621009e658e5afd655dde2d69b77642bf36dbc9e72bc170523dfd908a9ee41c26f034c1fdc605ace3b1b4b10faf
+"dotenv@npm:16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
   languageName: node
   linkType: hard
 
@@ -10839,6 +10799,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.1.0":
+  version: 11.1.0
+  resolution: "fs-extra@npm:11.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^7.0.1":
   version: 7.0.1
   resolution: "fs-extra@npm:7.0.1"
@@ -11269,7 +11240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.0, globby@npm:^11.1.0":
+"globby@npm:11.1.0, globby@npm:^11.0.0, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -14186,10 +14157,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mikro-orm@npm:~5.4.2":
-  version: 5.4.2
-  resolution: "mikro-orm@npm:5.4.2"
-  checksum: 4a00cc10a4cc0152f385f1f0afcf5f14107b3e3c16c48c71feee83132c756e99d7a60ebbfe39fd6f4b162298fdc048d3f9c70bf5edb1d06074574370fa3ced45
+"mikro-orm@npm:~5.6.8":
+  version: 5.6.11
+  resolution: "mikro-orm@npm:5.6.11"
+  checksum: 3e9b28b03bb4f70630e9c529d20c9669194d73fbcfcf513f8d5ac482ece3554c8b226d43796ed750a8116d6b1bf3aee372770289074fe9fa319dedf4a6483034
   languageName: node
   linkType: hard
 
@@ -16983,7 +16954,7 @@ __metadata:
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     "@mikro-orm/better-sqlite": 5.4.2
-    "@mikro-orm/core": 5.4.2
+    "@mikro-orm/core": 5.6.8
     "@mikro-orm/entity-generator": 5.4.2
     "@mikro-orm/migrations": 5.4.2
     "@mikro-orm/seeder": 5.4.2
@@ -19485,7 +19456,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
   version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
