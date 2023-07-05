@@ -15,7 +15,7 @@ RUN yarn install --immutable --inline-builds
 RUN yarn run release --platform=linux
 
 ### CORE IMAGE ###
-FROM ubuntu as redeye-core
+FROM ubuntu:22.10 as redeye-core
 WORKDIR /app
 COPY --from=redeye-linux-builder /app/release/linux .
 ENTRYPOINT [ "/bin/bash", "-l", "-c" ]
