@@ -3724,46 +3724,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redeye/client@workspace:applications/client":
-  version: 0.0.0-use.local
-  resolution: "@redeye/client@workspace:applications/client"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/cs-parser@workspace:packages/cs-parser":
-  version: 0.0.0-use.local
-  resolution: "@redeye/cs-parser@workspace:packages/cs-parser"
-  bin:
-    cs-parser: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/graph@workspace:packages/graph":
-  version: 0.0.0-use.local
-  resolution: "@redeye/graph@workspace:packages/graph"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/models@workspace:packages/models":
-  version: 0.0.0-use.local
-  resolution: "@redeye/models@workspace:packages/models"
-  languageName: unknown
-  linkType: soft
-
-"@redeye/server@workspace:applications/server":
-  version: 0.0.0-use.local
-  resolution: "@redeye/server@workspace:applications/server"
-  bin:
-    server: ./src/index.js
-  languageName: unknown
-  linkType: soft
-
-"@redeye/ui-styles@workspace:packages/client/ui-styles":
-  version: 0.0.0-use.local
-  resolution: "@redeye/ui-styles@workspace:packages/client/ui-styles"
-  languageName: unknown
-  linkType: soft
-
 "@remix-run/router@npm:1.0.1":
   version: 1.0.1
   resolution: "@remix-run/router@npm:1.0.1"
@@ -8043,10 +8003,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crypto-js@npm:^4.0.0":
-  version: 4.1.1
-  resolution: "crypto-js@npm:4.1.1"
-  checksum: b3747c12ee3a7632fab3b3e171ea50f78b182545f0714f6d3e7e2858385f0f4101a15f2517e033802ce9d12ba50a391575ff4638c9de3dd9b2c4bc47768d5425
+"crypto-js@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "crypto-js@npm:4.2.0"
+  checksum: f051666dbc077c8324777f44fbd3aaea2986f198fe85092535130d17026c7c2ccf2d23ee5b29b36f7a4a07312db2fae23c9094b644cc35f7858b1b4fcaf27774
   languageName: node
   linkType: hard
 
@@ -17051,7 +17011,7 @@ __metadata:
     commander: ^8.3.0
     cookie-parser: ^1.4.5
     cors: ^2.8.5
-    crypto-js: ^4.0.0
+    crypto-js: ^4.2.0
     cypress: ^10.9.0
     cypress-multi-reporters: ^1.6.1
     d3: ^6.7.0
@@ -19485,7 +19445,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.8.3#~builtin<compat/typescript>":
   version: 4.8.3
-  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.3#~builtin<compat/typescript>::version=4.8.3&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
