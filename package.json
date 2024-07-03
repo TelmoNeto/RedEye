@@ -34,7 +34,7 @@
 		"@blueprintjs/datetime2": "^0.5.5",
 		"@blueprintjs/popover2": "^1.6.3",
 		"@blueprintjs/select": "^4.6.3",
-		"@carbon/icons-react": "^10.36.0",
+		"@carbon/icons-react": "^10.49.0",
 		"@emotion/react": "^11.4.0",
 		"@emotion/styled": "^11.3.0",
 		"@mikro-orm/better-sqlite": "5.4.2",
