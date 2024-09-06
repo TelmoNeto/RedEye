@@ -58,7 +58,7 @@
 		"fs-extra": "^9.0.1",
 		"graphql": "^15.8.0",
 		"graphql-fields-to-relations": "^1.0.5",
-		"graphql-request": "^3.4.0",
+		"graphql-request": "^4.2.0",
 		"history": "^5.1.0",
 		"js-yaml": "^4.1.0",
 		"minisearch": "^3.0.2",
