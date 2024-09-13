@@ -46,7 +46,7 @@
 		"apollo-server-core": "^3.10.2",
 		"apollo-server-express": "^3.10.2",
 		"blueprint-styler": "4.0.0-alpha.7",
-		"chokidar": "^3.4.1",
+		"chokidar": "^4.0.0",
 		"class-validator": "^0.13.1",
 		"commander": "^8.3.0",
 		"cookie-parser": "^1.4.5",
