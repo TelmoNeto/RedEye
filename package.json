@@ -29,9 +29,9 @@
 		"cy:open": "yarn nx open-cy redeye-e2e"
 	},
 	"dependencies": {
-		"@blueprintjs/core": "^4.9.3",
+		"@blueprintjs/core": "^5.0.0",
 		"@blueprintjs/datetime": "^4.3.9",
-		"@blueprintjs/datetime2": "^0.5.5",
+		"@blueprintjs/datetime2": "^1.0.0",
 		"@blueprintjs/popover2": "^1.6.3",
 		"@blueprintjs/select": "^4.6.3",
 		"@carbon/icons-react": "^10.36.0",
@@ -78,7 +78,7 @@
 		"react-error-boundary": "^3.1.1",
 		"react-resize-detector": "^6.6.4",
 		"react-router-dom": "^6.4.1",
-		"react-spring": "^8.0.27",
+		"react-spring": "^9.0.0",
 		"react-use-gesture": "^9.1.3",
 		"react-virtuoso": "^2.7.1",
 		"readline": "^1.3.0",
